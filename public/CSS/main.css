@@ -1,0 +1,30 @@
+body {
+	height: 100%;
+	background-image: url('IMG/alexander-maasch-202885.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.box1 {
+	
+	width: 50%;
+	background-color: transparent;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px black;
+}
+.center1 {
+	display: flex;
+	align-items: center;
+	margin-top: 25%;
+}
+.well {
+	background-color: rgba(204, 204, 204, 0.6);
+	margin-bottom: 0;
+	border: 0 ;
+	text-align: center;
+	font-size: 2em;
+}
+button {
+	margin-top: 20px;
+}
