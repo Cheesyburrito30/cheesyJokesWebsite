@@ -1,5 +1,5 @@
 body {
-	height: 100%;
+	height: 100vh;
 	background-image: url('IMG/alexander-maasch-202885.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -19,11 +19,13 @@ body {
 	margin-top: 25%;
 }
 .well {
-	background-color: rgba(204, 204, 204, 0.6);
+	background-color: transparent/*rgba(204, 204, 204, 0.6)*/;
 	margin-bottom: 0;
 	border: 0 ;
 	text-align: center;
 	font-size: 2em;
+	font-weight: bold;
+	color:black;
 }
 button {
 	margin-top: 20px;
